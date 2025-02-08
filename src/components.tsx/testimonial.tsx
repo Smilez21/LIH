@@ -75,7 +75,7 @@ const Testimonial = () => {
             </button>
             <button
               onClick={rightScroll}
-              className="p-2 rounded-full bg-slate-700 w-10 h-10"
+              className="p-2 rounded-full bg-[#27235E] w-10 h-10"
               id="right-slide"
               ref={rightSlide}
             >
