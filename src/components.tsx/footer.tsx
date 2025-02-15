@@ -8,9 +8,9 @@ import {
 import { MdOutlineSend } from "react-icons/md";
 
 const services = [
-  "Food Distribution",
-  "Community Meals",
-  "Nutrition Education",
+  "About Us",
+  "Programs",
+  "Contact Us",
   "Volunteer Opportunities",
 ];
 const contacts = [
@@ -121,7 +121,7 @@ const Footer = () => {
           </div>
           {/* Services Section */}
           <div>
-            <h2 className="text-xl font-semibold mb-4">Our Services</h2>
+            <h2 className="text-xl font-semibold mb-4">Our Links</h2>
             <ul className="space-y-3">
               {services.map((service, index) => (
                 <li key={index}>
@@ -134,7 +134,7 @@ const Footer = () => {
           </div>
           {/* Contacts Section */}
           <div>
-            <h2 className="text-xl font-semibold mb-4">Contact Us</h2>
+            <h2 className="text-xl font-semibold mb-4">Inquires</h2>
             <ul className="space-y-3">
               {contacts.map((contact, index) => (
                 <li key={index}>
@@ -147,7 +147,7 @@ const Footer = () => {
           </div>
           {/* Customer Care Section */}
           <div>
-            <h2 className="text-xl font-semibold mb-4">Customer Care</h2>
+            <h2 className="text-xl font-semibold mb-4">Other Links</h2>
             <ul className="space-y-3">
               {contacts.map((contact, index) => (
                 <li key={index}>
