@@ -32,8 +32,8 @@ const Header = () => {
     : "text-black hover:text-[#27235E]";
 
   const buttonStyle = scrolling
-    ? "border border-[#27235E] text-[#27235E] hover:bg-[#27235E] hover:text-[#27235E] px-4 py-2 rounded-[1rem] font-monts font-semibold"
-    : "border border-[#27235E] text-[#27235E] hover:bg-[#27235E] hover:text-[#27235E] px-4 py-2 rounded-[1rem] font-monts font-semibold";
+    ? "border border-[#27235E] text-[#27235E] hover:bg-[#27235E] hover:text-white px-4 py-2 rounded-[1rem] font-monts font-semibold"
+    : "border border-[#27235E] text-[#27235E] hover:bg-[#27235E] hover:text-white px-4 py-2 rounded-[1rem] font-monts font-semibold";
 
   return (
     <div
@@ -93,7 +93,7 @@ const Header = () => {
               About
             </Link>
             <Link
-              to="/careers"
+              to="/contact"
               className={`${navItemColor} text-[1.2rem] font-monts font-semibold`}
             >
               Contact Us
@@ -133,8 +133,8 @@ const Header = () => {
               <button
                 className={`w-full sm:w-auto block px-4 py-2 font-monts font-medium rounded-lg ${
                   scrolling
-                    ? "border border-[#27235E] text-[#27235E] hover:bg-[#27235E] hover:text-[#27235E]"
-                    : "border border-[#27235E] text-[#27235E] hover:bg-[#27235E] hover:text-[#27235E]"
+                    ? "border border-[#27235E] text-[#27235E] hover:bg-[#27235E] hover:text-white"
+                    : "border border-[#27235E] text-[#27235E] hover:bg-[#27235E] hover:text-white"
                 }`}
               >
                 Get Started
