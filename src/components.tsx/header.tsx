@@ -93,6 +93,12 @@ const Header = () => {
               About
             </Link>
             <Link
+              to="/program"
+              className={`${navItemColor} text-[1.2rem] font-monts font-semibold`}
+            >
+              Programs
+            </Link>
+            <Link
               to="/contact"
               className={`${navItemColor} text-[1.2rem] font-monts font-semibold`}
             >

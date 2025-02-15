@@ -43,7 +43,7 @@ const contact = () => {
               <div className="flex items-center space-x-4">
                 <FaMapMarkerAlt className="text-[#48576B] text-2xl" />
                 <span className="text-[#48576B]">
-                  123 Example Street, City, Country
+                  Zamnyan Central Along, Wase Road, Langtang North
                 </span>
               </div>
             </div>

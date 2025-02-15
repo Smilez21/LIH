@@ -3,6 +3,7 @@ import About from './pages/about';
 import Careers from './pages/careers';
 import Landing from './pages/landing';
 import Contact from './pages/contact'
+import Program from './pages/program';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -27,6 +28,10 @@ function App() {
     {
       path:"/careers",
       element:<Careers/>
+    },
+    {
+      path:"/program",
+      element:<Program/>
     },
   
   ])
