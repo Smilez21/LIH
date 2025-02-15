@@ -27,9 +27,6 @@ const Program = () => {
       {/* Main Content */}
       <main className="flex-1 bg-gray-100 py-12">
         <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center mb-12">
-            Our Programs
-          </h2>
 
           {/* Program Cards */}
           <div className="space-y-12">

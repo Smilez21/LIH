@@ -46,11 +46,7 @@ const Header = () => {
         <div className="flex justify-between items-center py-4 font-monts">
           {/* Logo with navigation */}
           <h1 className="mb-4 cursor-pointer" onClick={handleNavigation}>
-            <img
-              src="logo.png"
-              alt="Innovate Logo"
-              className="h-12 md:h-16"
-            />
+            <img src="logo.png" alt="Innovate Logo" className="h-12 md:h-16" />
           </h1>
 
           {/* Responsive Menu Button */}
@@ -114,7 +110,9 @@ const Header = () => {
         {isOpen && (
           <div
             className={`md:hidden ${
-              scrolling ? "bg-white" : "bg-gradient-to-r from-purple-50 to-blue-100"
+              scrolling
+                ? "bg-white"
+                : "bg-gradient-to-r from-purple-50 to-blue-100"
             } py-2`}
           >
             <Link
@@ -130,7 +128,13 @@ const Header = () => {
               About
             </Link>
             <Link
-              to="/careers"
+              to="/program"
+              className={`${navItemColor} text-[1.2rem] font-monts font-semibold`}
+            >
+              Programs
+            </Link>
+            <Link
+              to="/contact"
               className={`block px-4 py-2 font-monts font-medium ${navItemColor}`}
             >
               Contact Us
