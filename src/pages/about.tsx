@@ -1,7 +1,14 @@
 import React from "react";
 import Header from "../components.tsx/header";
 import Footer from "../components.tsx/footer";
-import { FaLightbulb, FaChartLine, FaUsers, FaGlobe, FaShieldAlt, FaClock } from "react-icons/fa"; // Import icons from React Icons
+import {
+  FaLightbulb,
+  FaChartLine,
+  FaUsers,
+  FaGlobe,
+  FaShieldAlt,
+  FaClock,
+} from "react-icons/fa"; // Import icons from React Icons
 
 const About = () => {
   return (
@@ -15,12 +22,12 @@ const About = () => {
         <section className="py-16 bg-[#41AADF] text-white">
           <div className="container mx-auto px-4 lg:px-8 max-w-5xl">
             <div className="text-center">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+              <h2 className="text-3xl lg:text-4xl font-bold md:mt-12 mb-4">
                 Ready to Work Together?
               </h2>
-              <p className="text-lg mb-8">
+              {/* <p className="text-lg mb-8">
                 Let's discuss how we can help your business grow.
-              </p>
+              </p> */}
               <a
                 href="/contact"
                 className="inline-block bg-white text-[#41AADF] font-medium py-3 px-8 rounded-lg shadow-md hover:bg-indigo-500 hover:text-white transition duration-300"
@@ -39,7 +46,10 @@ const About = () => {
                 Why Choose Us?
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                Discover what makes us stand out from the crowd.
+                Langtang Innovation Hub aims to equip young people with
+                essential digital skills to thrive in the 4IR era. Our mission
+                is to bridge the skills gap, foster innovation, and prepare the
+                next generation for the future job market.
               </p>
             </div>
 
@@ -50,9 +60,13 @@ const About = () => {
                 <div className="text-[#41AADF] text-4xl mb-4">
                   <FaLightbulb /> {/* React Icon */}
                 </div>
-                <h4 className="text-xl font-semibold mb-2">Innovative Solutions</h4>
+                <h4 className="text-xl font-semibold mb-2">
+                  Innovative Solutions
+                </h4>
                 <p className="text-gray-600">
-                  We provide cutting-edge solutions tailored to your needs.
+                  Provide hands-on training in in-demand digital skills (AI,
+                  Data Science, Cybersecurity, Software Development, Data
+                  Analysis, Product Design, etc.)
                 </p>
               </div>
 
@@ -61,9 +75,11 @@ const About = () => {
                 <div className="text-[#41AADF] text-4xl mb-4">
                   <FaChartLine /> {/* React Icon */}
                 </div>
-                <h4 className="text-xl font-semibold mb-2">Data-Driven Insights</h4>
+                <h4 className="text-xl font-semibold mb-2">
+                  Data-Driven Insights
+                </h4>
                 <p className="text-gray-600">
-                  Our strategies are backed by data and analytics.
+                  Foster creativity, innovation, and entrepreneurship
                 </p>
               </div>
 
@@ -72,9 +88,11 @@ const About = () => {
                 <div className="text-[#41AADF] text-4xl mb-4">
                   <FaUsers /> {/* React Icon */}
                 </div>
-                <h4 className="text-xl font-semibold mb-2">Expert Team</h4>
+                <h4 className="text-xl font-semibold mb-2">
+                  Job Opportunities
+                </h4>
                 <p className="text-gray-600">
-                  A team of professionals dedicated to your success.
+                  Enhance employability and job readiness
                 </p>
               </div>
 
@@ -85,7 +103,7 @@ const About = () => {
                 </div>
                 <h4 className="text-xl font-semibold mb-2">Global Reach</h4>
                 <p className="text-gray-600">
-                  Serving clients worldwide with local expertise.
+                  Promote digital literacy and inclusion
                 </p>
               </div>
 
@@ -96,7 +114,7 @@ const About = () => {
                 </div>
                 <h4 className="text-xl font-semibold mb-2">Security & Trust</h4>
                 <p className="text-gray-600">
-                  Your data and privacy are our top priorities.
+                  Cyber awareness through hands on learning.
                 </p>
               </div>
 

@@ -10,7 +10,7 @@ const Program = () => {
       <section className="py-16 bg-[#41AADF] text-white">
         <div className="container mx-auto px-4 lg:px-8 max-w-5xl">
           <div className="text-center">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold md:mt-12 mb-4">
               Our Programs
             </h2>
 
@@ -27,7 +27,6 @@ const Program = () => {
       {/* Main Content */}
       <main className="flex-1 bg-gray-100 py-12">
         <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-
           {/* Program Cards */}
           <div className="space-y-12">
             {/* Card 1: Image Left, Text Right */}
@@ -41,18 +40,31 @@ const Program = () => {
               </div>
               <div className="md:w-1/2 text-gray-700 leading-relaxed space-y-4">
                 <h3 className="text-2xl font-semibold">
-                  Program 1: Leadership Development
+                  Digital Skill Training
                 </h3>
-                <ul className="list-disc list-inside space-y-2">
-                  <li>
-                    Enhance leadership skills through interactive workshops.
-                  </li>
-                  <li>
-                    Learn strategic planning and decision-making techniques.
-                  </li>
-                  <li>Gain insights into effective team management.</li>
-                  <li>Receive personalized feedback and coaching.</li>
-                </ul>
+                <div>
+                  <ul className="list-disc list-inside space-y-2">
+                    <li>
+                      AI: Machine learning, neural networks, and AI
+                      applications.
+                    </li>
+                    <li>
+                      Data Science: Data analytics, visualization, and machine
+                      learning with Python and R.
+                    </li>
+                    <li>
+                      Cybersecurity: Ethical hacking and digital asset
+                      protection.
+                    </li>
+                    <li>
+                      Software Development: Full-stack development with React
+                      and Django.
+                    </li>
+                    <li>
+                      Product Design: UI/UX, prototyping, and tools like Figma.
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
 
@@ -66,19 +78,19 @@ const Program = () => {
                 />
               </div>
               <div className="md:w-1/2 text-gray-700 leading-relaxed space-y-4">
-                <h3 className="text-2xl font-semibold">
-                  Program 2: Digital Transformation
-                </h3>
+                <h3 className="text-2xl font-semibold">Coaching & Mentoring</h3>
                 <ul className="list-disc list-inside space-y-2">
                   <li>
-                    Adopt cutting-edge technologies to streamline operations.
+                    One-on-one sessions with experienced mentors from the
+                    technology and business sectors.
                   </li>
                   <li>
-                    Understand the impact of AI and automation on your business.
+                    Goal setting and progress tracking to ensure personal and
+                    professional growth.
                   </li>
-                  <li>Implement data-driven strategies for growth.</li>
                   <li>
-                    Explore cloud computing and cybersecurity best practices.
+                    Access to networking events and industry insights to stay
+                    updated on market trends.
                   </li>
                 </ul>
               </div>
@@ -95,15 +107,24 @@ const Program = () => {
               </div>
               <div className="md:w-1/2 text-gray-700 leading-relaxed space-y-4">
                 <h3 className="text-2xl font-semibold">
-                  Program 3: Customer Experience
+                  Innovation Challenges & Hackathon
                 </h3>
                 <ul className="list-disc list-inside space-y-2">
                   <li>
-                    Design customer-centric strategies to boost satisfaction.
+                    Real-world problem statements presented by industry leaders.
                   </li>
-                  <li>Learn how to measure and improve customer loyalty.</li>
-                  <li>Implement feedback loops for continuous improvement.</li>
-                  <li>Create memorable experiences through personalization.</li>
+                  <li>
+                    Team-based competitions to encourage collaboration and
+                    creativity.
+                  </li>
+                  <li>
+                    Opportunities to pitch solutions to potential investors and
+                    stakeholders.
+                  </li>
+                  <li>
+                    Exciting prizes and potential employment opportunities for
+                    top performers.
+                  </li>
                 </ul>
               </div>
             </div>
@@ -119,19 +140,49 @@ const Program = () => {
               </div>
               <div className="md:w-1/2 text-gray-700 leading-relaxed space-y-4">
                 <h3 className="text-2xl font-semibold">
-                  Program 4: Sustainability & Innovation
+                  Entrepreneuship Support
+                </h3>
+                <ul className="list-disc list-inside space-y-2">
+                  <li>Business development workshops and training sessions.</li>
+                  <li>
+                    Guidance on creating business plans and securing funding.
+                  </li>
+                  <li>
+                    Access to a network of investors, advisors, and industry
+                    professionals.
+                  </li>
+                  <li>Incubation support and office space for startups.</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Card 5: Image Left, Text Right */}
+            <div className="flex flex-col md:flex-row items-center justify-between">
+              <div className="md:w-1/2 mr-4 md:mr-8">
+                <img
+                  src="20.jpg"
+                  alt="Program 5"
+                  className="w-full rounded-lg shadow-lg"
+                />
+              </div>
+              <div className="md:w-1/2 text-gray-700 leading-relaxed space-y-4">
+                <h3 className="text-2xl font-semibold">
+                  Industry Collaboration
                 </h3>
                 <ul className="list-disc list-inside space-y-2">
                   <li>
-                    Integrate sustainable practices into your business model.
+                    Interactive workshops led by industry experts and thought
+                    leaders.
                   </li>
                   <li>
-                    Discover innovative solutions for reducing environmental
-                    impact.
+                    Hands-on projects to apply learning in real-world scenarios.
                   </li>
-                  <li>Learn about renewable energy and resource management.</li>
                   <li>
-                    Drive innovation through collaboration and partnerships.
+                    Networking sessions with professionals from top companies.
+                  </li>
+                  <li>
+                    Access to exclusive resources and tools for career
+                    advancement.
                   </li>
                 </ul>
               </div>
